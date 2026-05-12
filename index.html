@@ -1,13 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="antialiased h-full">
 <head>
    <meta charset="UTF-8"/>
    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    <title>metaphileo</title>
 </head>
-<body>
-<div id="app"></div>
+<body class="min-h-full flex flex-col p-4 sm:p-6">
+<div>
+   <header class="text-center mt-6 mb-12">
+      <h1 class="text-xl text-mauve-500">Metaphysical & Philosophical Inquiries</h1>
+   </header>
+
+   <main class="max-w-3xl mx-auto">
+      <div class="flex flex-col items-center justify-center gap-12">
+         <article id="inquiry" class="text-4xl/10.75 p-9 bg-mauve-100 text-mauve-800"></article>
+         <div class="font-sans">
+            <button id="new-inquiry" type="button"
+                    class="text-sm font-semibold text-mauve-500 px-4 py-3 underline hover:text-mauve-900 decoration-mauve-300 hover:decoration-mauve-900 transition-all duration-200 ease-in-out">
+               New Inquiry
+            </button>
+         </div>
+      </div>
+   </main>
+
+   <footer></footer>
+</div>
 <script type="module" src="/src/main.ts"></script>
 </body>
 </html>

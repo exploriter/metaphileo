@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "@fontsource-variable/crimson-pro";
+
+@theme inline {
+    --font-serif: "Crimson Pro Variable", serif;
+}
+
+@layer base {
+    html {
+        @apply font-serif;
+    }
+
+    button:not(:disabled), [role="button"]:not(:disabled) {
+        cursor: pointer;
+    }
+}
