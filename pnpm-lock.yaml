@@ -11,6 +11,9 @@ importers:
       '@fontsource-variable/crimson-pro':
         specifier: ^5.2.8
         version: 5.2.8
+      '@fontsource/ibm-plex-serif':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@tailwindcss/vite':
         specifier: ^4.3.0
         version: 4.3.0(vite@8.0.11(jiti@2.7.0))
@@ -47,6 +50,9 @@ packages:
 
   '@fontsource-variable/crimson-pro@5.2.8':
     resolution: {integrity: sha512-En4uvz5Wb9gZFi/EVPA9jfC7Bh5NLYwOGc2KhUIT5mPSKrOSCaI1IyvQ3SbUXeHJ04MhWJiRLJSuU9CmyDcOIA==}
+
+  '@fontsource/ibm-plex-serif@5.2.7':
+    resolution: {integrity: sha512-04owmc2OQQ/DAMjXjEMJc+7V4dBVmR01aIFOg4cuqS8pQ4HbvtlYs/u6+O0vCt21EMx5M/azIbgx43iKyisEOA==}
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -496,6 +502,8 @@ snapshots:
     optional: true
 
   '@fontsource-variable/crimson-pro@5.2.8': {}
+
+  '@fontsource/ibm-plex-serif@5.2.7': {}
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
