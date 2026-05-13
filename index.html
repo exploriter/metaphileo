@@ -13,37 +13,91 @@
    <meta property="og:type" content="website">
    <meta property="og:url" content="https://metaphileo.com/">
 </head>
-<body class="min-h-full flex flex-col p-4 sm:p-6">
-<div class="bg-[url(/noise.webp)] pointer-events-none z-[-1] absolute inset-0 bg-size-[180px] bg-repeat opacity-[0.035]"></div>
-<div>
-   <header class="text-center mt-22 mb-12 max-w-lg mx-auto">
+<body class="min-h-full flex flex-col">
+<div class="bg-[url(/noise.webp)] pointer-events-none -z-1 absolute inset-0 bg-size-[180px] bg-repeat opacity-3.5"></div>
+<div class="flex flex-col flex-1 gap-12 mt-22">
+   <header class="text-center max-w-lg mx-auto px-4">
       <h1 class="text-[42px] leading-13 text-blue-800 font-[350] tracking-tight mb-2">Metaphileo</h1>
       <p class="font-light text-balance">A contemplative prompt generator for metaphysical and philosophical
          inquiry.</p>
    </header>
 
-   <main class="max-w-3xl mx-auto">
+   <main class="max-w-3xl w-full mx-auto">
       <div class="flex flex-col items-center justify-center gap-12">
          <article id="inquiry"
-                  class="text-xl leading-[1.4] p-9 bg-blue-50/50 text-blue-950/90 border border-slate-200/50 rounded text-pretty"></article>
+                  class="text-xl p-9 bg-blue-50/50 text-blue-950/90 border border-slate-200/50 rounded text-pretty"></article>
          <div class="font-sans">
             <button
                     id="new-inquiry"
                     type="button"
-                    class="select-none text-sm tracking-tight rounded-sm flex gap-1.5 items-center justify-center text-nowrap border lg:active:translate-y-px lg:active:scale-[.99] text-neutral-700 border-neutral-400/40 bg-white/50 hover:bg-neutral-100/50 hover:text-neutral-900 [box-shadow:hsl(218,13%,50%,0.1)_0_-2px_0_0_inset] dark:[box-shadow:hsl(218,13%,70%,0.08)_0_-2px_0_0_inset] hover:[box-shadow:none] h-9 pl-3 pr-2 w-full lg:w-fit"
+                    class="select-none text-sm tracking-tight rounded-sm flex gap-1.5 items-center justify-center text-nowrap border text-neutral-700 border-neutral-400/40 bg-white/50 hover:bg-neutral-100/50 hover:text-neutral-900 [box-shadow:hsl(218,13%,50%,0.1)_0_-2px_0_0_inset] hover:[box-shadow:none] h-9 pl-3 pr-2 w-full"
             >
                New Inquiry
                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="size-3.5">
                   <rect width="256" height="256" fill="none"/>
-                  <polyline points="96 48 176 128 96 208" fill="none" stroke="currentColor" stroke-linecap="round"
-                            stroke-linejoin="round" stroke-width="12"/>
+                  <polyline points="168 96 216 96 216 48" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="16"/>
+                  <path d="M216,96,187.72,67.72A88,88,0,0,0,64,67" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+                  <polyline points="88 160 40 160 40 208" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="16"/>
+                  <path d="M40,160l28.28,28.28A88,88,0,0,0,192,189" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
                </svg>
             </button>
          </div>
       </div>
    </main>
 
-   <footer></footer>
+   <footer class="mt-auto max-w-5xl w-full mx-auto px-4 py-8 font-sans text-xs text-neutral-500 flex flex-col gap-3 items-center">
+      <p class="text-sm">Offered and stewarded by <a
+              class="underline decoration-neutral-300 underline-offset-2 hover:text-neutral-800 hover:decoration-neutral-800"
+              href="https://exploriter.com" target="_blank">Exploriter<span class="ml-1">↗</span></a></p>
+      <div class="flex gap-1 items-center">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="size-4">
+            <rect width="256" height="256" fill="none"/>
+            <circle cx="128" cy="128" r="96" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="12"/>
+            <path d="M160,152a40,40,0,1,1,0-48" fill="none" stroke="currentColor" stroke-linecap="round"
+                  stroke-linejoin="round" stroke-width="12"/>
+         </svg>
+         <p>
+            <a class="underline decoration-neutral-300 underline-offset-2 hover:text-neutral-800 hover:decoration-neutral-800"
+               href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener noreferrer" target="_blank"
+               title="Content is Creative Commons Attribution 4.0 International">CC
+               BY 4.0<span class="ml-1">↗</span></a> / <a
+                 class="underline decoration-neutral-300 underline-offset-2 hover:text-neutral-800 hover:decoration-neutral-800"
+                 href="https://spdx.org/licenses/MIT.html" rel="noopener noreferrer"
+                 target="_blank" title="Code is MIT License">MIT<span class="ml-1">↗</span></a>
+         </p>
+      </div>
+      <div class="flex gap-2 items-center mt-4">
+         <a class="hover:text-neutral-800" href="https://x.com/exploriter" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="size-5">
+               <rect width="256" height="256" fill="none"/>
+               <polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="12"/>
+               <line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round"
+                     stroke-linejoin="round" stroke-width="12"/>
+               <line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round"
+                     stroke-linejoin="round" stroke-width="12"/>
+            </svg>
+         </a>
+         <a class="hover:text-neutral-800" href="https://github.com/exploriter/metaphileo" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="size-5">
+               <rect width="256" height="256" fill="none"/>
+               <path d="M119.83,56A52,52,0,0,0,76,32a51.92,51.92,0,0,0-3.49,44.7A49.28,49.28,0,0,0,64,104v8a48,48,0,0,0,48,48h48a48,48,0,0,0,48-48v-8a49.28,49.28,0,0,0-8.51-27.3A51.92,51.92,0,0,0,196,32a52,52,0,0,0-43.83,24Z"
+                     fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                     stroke-width="12"/>
+               <path d="M104,232V192a32,32,0,0,1,32-32h0a32,32,0,0,1,32,32v40" fill="none" stroke="currentColor"
+                     stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+               <path d="M104,208H72a32,32,0,0,1-32-32A32,32,0,0,0,8,144" fill="none" stroke="currentColor"
+                     stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
+            </svg>
+         </a>
+      </div>
+   </footer>
 </div>
 <script type="module" src="/src/main.ts"></script>
 </body>

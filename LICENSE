@@ -1,0 +1,27 @@
+# License
+
+This repository uses separate licenses for different kinds of material.
+
+## Content and inquiry prompts
+
+All written metaphysical and philosophical content, inquiry prompts, essays, notes,
+and related text are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+See `LICENSE-CONTENT` and https://creativecommons.org/licenses/by/4.0/.
+
+## Website code
+
+The source code used to build and run this website is licensed under the MIT
+License.
+
+See `LICENSE-CODE`.
+
+## Summary
+
+You may share and adapt the written content, including commercially, as long as
+you give appropriate credit.
+
+You may use, copy, modify, distribute, and sell the website code, including in
+closed-source projects, as long as the MIT copyright and license notice are
+included.
