@@ -1,6 +1,6 @@
 # metaphileo.com
 
-Metaphysical and philosophical inquiry prompts.
+A contemplative prompt generator for metaphysical and philosophical inquiry.
 
 ## License
 
