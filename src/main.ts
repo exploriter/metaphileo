@@ -69,7 +69,7 @@ const nextInquiry = () => {
    if (state.queue.length === 0) {
       const cycle = shuffle(currentIds());
       state = {
-         queue: cycle,
+         queue: [...cycle],
          cycle,
       };
    }
