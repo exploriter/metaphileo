@@ -17,9 +17,9 @@
       "tailwindcss": "^4.3.1"
    },
    "devDependencies": {
-      "prettier": "3.8.4",
+      "prettier": "3.9.3",
       "typescript": "~6.0.3",
-      "vite": "^8.0.16"
+      "vite": "^8.1.0"
    },
    "prettier": {
       "semi": true,
